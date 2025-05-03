@@ -88,4 +88,16 @@ export const playlists: Playlist[] = [
     coverUrl: "/playlist-8.png",
     songs: sampleSongs,
   },
+  {
+    id: "hardcore",
+    name: "HARDCORE",
+    coverUrl: "/playlist-2.png",
+    songs: sampleSongs,
+  },
+  {
+    id: "brain-radio",
+    name: "BRAIN RADIO",
+    coverUrl: "/playlist-5.png",
+    songs: sampleSongs,
+  },
 ];

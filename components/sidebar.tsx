@@ -42,7 +42,7 @@ export const PlaylistSidebar: React.FC = () => {
             <button
               key={playlist.id}
               className={cn(
-                "w-12 h-12 shadow-md overflow-hidden cursor-pointer relative rounded-sm transition-all",
+                "w-12 h-12 shadow-md overflow-hidden mt-1 cursor-pointer relative rounded-sm transition-all",
                 currentPlaylist.id === playlist.id && "ring-2 ring-green-500"
               )}
               title={playlist.name}
